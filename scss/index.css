@@ -30,4 +30,30 @@ ul {
 
 ::-webkit-scrollbar-thumb {
   background-color: #45b649;
+}
+
+.gradient {
+  background: var(--gradient);
+}
+
+.defaultMargin {
+  margin: 0 14rem;
+}
+
+button {
+  color: white;
+  padding: 1rem 1.8rem;
+  text-transform: uppercase;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #dce35b, #45b649);
+  background-origin: border-box;
+  background-clip: content-box;
+  box-shadow: 2px 1000px 1 px #0b0b0b inset;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 2rem 0;
 }/*# sourceMappingURL=index.css.map */
